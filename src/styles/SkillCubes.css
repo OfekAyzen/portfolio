@@ -1,0 +1,31 @@
+.skill-cubes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px; /* Added to create space below skill cubes */
+  justify-content: flex-start; /* Revert to align left */
+  max-width: 400px; /* Limit skill cubes container width */
+  margin-left: 0; /* Remove negative margin */
+  padding-left: 0; /* Remove padding */
+  box-sizing: content-box; /* Revert box-sizing */
+}
+
+.skill-cube {
+  background-color: #0d0d0d; /* Dark background for cubes */
+  color: #f5f5f5;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skill-cube:hover {
+  background-color: #007bff; /* Blue on hover */
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}

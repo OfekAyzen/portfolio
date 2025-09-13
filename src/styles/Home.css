@@ -1,0 +1,112 @@
+.home-container {
+  background: #1a1a1a; /* Dark black background */
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+  color: #f5f5f5; /* Light grey text */
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.home-left-column {
+  flex: 1; /* Allows left column to grow */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10%; /* Revert padding to move h1 back to its place */
+  max-width: 600px;
+  min-width: 400px;
+  height: 100%;
+  box-sizing: border-box;
+  z-index: 3;
+  position: relative;
+  margin-right: 50px; /* Added to create space between left and center columns */
+}
+
+.greeting-line {
+  width: 80px;
+  height: 4px;
+  background-color: #007bff; /* Blue line */
+  margin-bottom: 20px;
+}
+
+.home-left-column h1 {
+  font-size: 4rem;
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 1.1;
+}
+
+/* Removed .heading-skills-container styles */
+
+.home-left-column p {
+  font-size: 1.2rem;
+  text-align: left;
+  margin-bottom: 40px;
+  max-width: 500px;
+  color: #ccc; /* Slightly darker light grey for paragraphs */
+}
+
+.scroll-down-btn {
+  background-color: #007bff; /* Blue button */
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.scroll-down-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.home-center-column {
+  flex: 1.5; /* Allows center column to grow more than left */
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; /* Added to stack children vertically */
+  align-items: center; /* Added to center children horizontally */
+  justify-content: center;
+  z-index: 2;
+  position: relative;
+}
+
+.profile-picture-placeholder {
+  width: 100%;
+  height: 100%;
+  background-color: #333; /* Darker background for placeholder */
+  border-radius: 0;
+  background-image: url("../assets/profile.jpg"); /* Revert to actual image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; /* Ensure image does not repeat */
+  border: 2px solid transparent;
+  /* Add aspect ratio to prevent collapse if image has no intrinsic dimensions */
+  aspect-ratio: 1 / 1;
+}
+
+/* Removed specific skill cubes styling from Home.css */
+
+.home-right-column {
+  flex: 0 0 300px; /* Fixed width for sidebar */
+  background-color: #0d0d0d; /* Even darker for sidebar background */
+  height: 100%;
+  padding: 80px 30px 20px 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+  z-index: 3;
+  position: relative;
+}
