@@ -8,22 +8,13 @@ const FollowMeSidebar = () => {
     <div className="sidebar-section">
       <h4>FOLLOW ME</h4>
       <div className="social-icons">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          F
+        <a href="https://discord.com/users/356805422625193984" target="_blank" rel="noopener noreferrer">
+          D
         </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          T
-        </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          I
-        </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/ofek-ayzen-410a40247/" target="_blank" rel="noopener noreferrer">
           L
         </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          Y
-        </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/OfekAyzen" target="_blank" rel="noopener noreferrer">
           G
         </a>
       </div>
