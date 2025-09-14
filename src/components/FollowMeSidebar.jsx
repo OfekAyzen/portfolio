@@ -9,7 +9,7 @@ const FollowMeSidebar = () => {
       <h4>FOLLOW ME</h4>
       <div className="social-icons">
         <a href="https://discord.com/users/356805422625193984" target="_blank" rel="noopener noreferrer">
-          D
+          <svg></svg>
         </a>
         <a href="https://www.linkedin.com/in/ofek-ayzen-410a40247/" target="_blank" rel="noopener noreferrer">
           L
