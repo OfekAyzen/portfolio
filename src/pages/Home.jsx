@@ -23,6 +23,18 @@ const Home = () => {
               .scrollIntoView({ behavior: "smooth" })
           }
         >
+          <svg
+            width="35"
+            height="35"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 16L6 10L7.41 8.59L12 13.17L16.59 8.59L18 10L12 16Z"
+              fill="white"
+            />
+          </svg>
         </button>
       </div>
       <div className="home-center-column">
